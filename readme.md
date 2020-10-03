@@ -1,3 +1,8 @@
+# Cascading Decision Tree (CDT) for Interpretable Reinforcement Learning
+
+Open-source code for paper *CDT: Cascading Decision Trees for Explainable Reinforcement Learning*.
+
+
 # File Structure
 
 * data: all data for experiments
