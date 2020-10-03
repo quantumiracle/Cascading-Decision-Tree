@@ -1,0 +1,47 @@
+{   "General": {
+    "policy_approx" : "CDT"
+    },
+    "CartPole-v1": {
+        "learner_args": {
+            "num_intermediate_variables"    : 2,
+            "feature_learning_depth"        : 2,
+            "decision_depth"                : 2,
+            "input_dim"                     : 4,
+            "output_dim"                    : 2,
+            "lr"                            : 1e-3,
+            "weight_decay"                  : 0.0,
+            "batch_size"                    : 1280,
+            "exp_scheduler_gamma"           : 1.0,
+            "device"                        : "cuda",
+            "epochs"                        : 80,
+            "log_interval"                  : 100,
+            "greatest_path_probability"     : 1,
+            "beta_fl"                       : 0,  
+            "beta_dc"                       : 0,
+            "model_path"    : "../data/cdt/model/cartpole/il_model",
+            "log_path"      : "../data/cdt/log/cartpole/il_log"
+        }
+    },
+
+    "LunarLander-v2": {
+        "learner_args": {
+            "num_intermediate_variables"    : 2,
+            "feature_learning_depth"        : 3,
+            "decision_depth"                : 3,
+            "input_dim"                     : 8,
+            "output_dim"                    : 4,
+            "lr"                            : 1e-3,
+            "weight_decay"                  : 0.0,
+            "batch_size"                    : 1280,
+            "exp_scheduler_gamma"           : 1.0,
+            "device"                        : "cuda",
+            "epochs"                        : 80,
+            "log_interval"                  : 100,
+            "greatest_path_probability"     : 1,
+            "beta_fl"                       : 0,  
+            "beta_dc"                       : 0,
+            "model_path"    : "../data/cdt/model/lunarlander/il_model",
+            "log_path"    : "../data/cdt/log/lunarlander/il_log"
+        }
+    }
+}

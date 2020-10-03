@@ -1,0 +1,8 @@
+{   "data_collect_confs": {
+    "episodes"      : 10000,
+    "t_horizon"     : 1000,
+    "data_path"     : "../data/il/samples/",
+    "img_path"      : "../data/il/imgs/"
+    }
+}
+

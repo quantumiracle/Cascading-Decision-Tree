@@ -1,0 +1,46 @@
+{   "General": {
+    "policy_approx" : "SDT"
+    },
+    "CartPole-v1": {
+        "learner_args": {
+            "input_dim": 4,
+            "output_dim": 2,
+            "depth": 3,
+            "lamda": 1e-3,
+            "lr": 1e-3,
+            "weight_decay": 0.0,
+            "batch_size": 1280,
+            "epochs": 80,
+            "device": "cuda",
+            "log_interval": 100,
+            "exp_scheduler_gamma": 1.0,
+            "beta" : 0,
+            "l1_regularization": 0,
+            "greatest_path_probability": 1,
+            "model_path"    : "../data/sdt/model/cartpole/il_model",
+            "log_path"      : "../data/sdt/log/cartpole/il_log"
+        }
+    },
+
+    "LunarLander-v2": {
+        "learner_args": {
+            "input_dim": 8,
+            "output_dim": 4,
+            "depth": 4,
+            "lamda": 1e-3,
+            "lr": 1e-3,
+            "weight_decay": 0.0,
+            "batch_size": 1280,
+            "epochs": 80,
+            "device": "cuda",
+            "log_interval": 100,
+            "exp_scheduler_gamma": 1.0,
+            "beta" : 0,
+            "l1_regularization": 0,
+            "greatest_path_probability": 1,
+            "model_path"    : "../data/sdt/model/lunarlander/il_model",
+            "log_path"    : "../data/sdt/log/lunarlander/il_log"
+        }
+
+    }
+}

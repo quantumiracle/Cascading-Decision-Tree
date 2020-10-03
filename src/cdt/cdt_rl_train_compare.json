@@ -1,0 +1,71 @@
+{   "General": {
+    "policy_approx" : "CDT"
+    },
+    "CartPole-v1": {
+        "learner_args": {
+            "num_intermediate_variables"    : 2,
+            "feature_learning_depth"        : 2,
+            "decision_depth"                : 2,
+            "input_dim"                     : 4,
+            "output_dim"                    : 2,
+            "lr"                            : 1e-3,
+            "weight_decay"                  : 0.0,
+            "batch_size"                    : 1280,
+            "exp_scheduler_gamma"           : 1.0,
+            "device"                        : "cuda",
+            "episodes"                      : 40,
+            "log_interval"                  : 100,
+            "greatest_path_probability"     : 1,
+            "beta_fl"                       : 0,  
+            "beta_dc"                       : 0
+        },
+        "alg_confs": {
+            "learning_rate" : 0.0005,
+            "gamma"         : 0.98,
+            "lmbda"         : 0.95,
+            "eps_clip"      : 0.1,
+            "K_epoch"       : 3,
+            "hidden_dim"    : 128
+        },
+        "train_confs": {
+            "episodes"      : 3000,
+            "t_horizon"     : 1000,
+            "model_path"    : "../data/cdt_compare_depth/model/cartpole/rl_ppo",
+            "log_path"      : "../data/cdt_compare_depth/log/cartpole/rl_reward"
+        }
+    },
+
+    "LunarLander-v2": {
+        "learner_args": {
+            "num_intermediate_variables"    : 2,
+            "feature_learning_depth"        : 3,
+            "decision_depth"                : 3,
+            "input_dim"                     : 8,
+            "output_dim"                    : 4,
+            "lr"                            : 1e-3,
+            "weight_decay"                  : 0.0,
+            "batch_size"                    : 1280,
+            "exp_scheduler_gamma"           : 1.0,
+            "device"                        : "cuda",
+            "episodes"                      : 40,
+            "log_interval"                  : 100,
+            "greatest_path_probability"     : 1,
+            "beta_fl"                       : 0,  
+            "beta_dc"                       : 0
+        },
+        "alg_confs": {
+            "learning_rate" : 0.0005,
+            "gamma"         : 0.98,
+            "lmbda"         : 0.95,
+            "eps_clip"      : 0.1,
+            "K_epoch"       : 3,
+            "hidden_dim"    : 128
+        },
+        "train_confs": {
+            "episodes"      : 5000,
+            "t_horizon"     : 1000,
+            "model_path"    : "../data/cdt_compare_depth/model/lunarlander/rl_ppo",
+            "log_path"    : "../data/cdt_compare_depth/log/lunarlander/rl_reward"
+        }
+    }
+}

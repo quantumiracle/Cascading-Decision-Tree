@@ -1,0 +1,6 @@
+{ 
+    "data_collect_confs": {
+        "episodes"      : 3000,
+        "data_path"     : "../data/rl/samples/"
+    }
+}
