@@ -129,6 +129,10 @@ For fully replicating the experiments in the paper, the code needs to run in sev
    ```
 
    see in `plot.ipynb`.
+   
+### B'. Imitation Learning with DAGGER and Q-DAGGER
+DAGGER and Q-DAGGER methods in [VIPER](https://arxiv.org/abs/1805.08328) are compared in the paper as well under the imitation learning setting. Code in `./src/viper/`. Credit gives to [Hangrui (Henry) Bi
+](https://github.com/20171130).
 
 ### C. Tree Depths for SDT and CDT in Reinforcement Learning
 
