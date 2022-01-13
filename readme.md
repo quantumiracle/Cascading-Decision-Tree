@@ -59,6 +59,8 @@ For fully replicating the experiments in the paper, the code needs to run in sev
    ````
 
    open `stats.ipynb` and run cells in it to generate files for dataset statistics.
+   
+   Step 1, 2 can be skipped is not using state normalization. 
 
 3. Train RL agents with different policy function approximators: SDT, CDT, MLP
 
