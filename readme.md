@@ -5,7 +5,7 @@ Open-source code for paper *CDT: Cascading Decision Trees for Explainable Reinfo
 
 # File Structure
 
-* data: all data for experiments (can be collected with the given scripts below)
+* data: all data for experiments (not maintained in the repo, but can be collected with the given scripts below)
   * mlp: data for MLP model;
   * cdt: data for CDT model;
   * sdt: data for SDT model;
