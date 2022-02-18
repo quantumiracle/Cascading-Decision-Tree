@@ -173,3 +173,13 @@ jupyter notebook
 ```
 
 See in `params.ipynb`.
+
+## Citation:
+```
+@article{ding2020cdt,
+  title={Cdt: Cascading decision trees for explainable reinforcement learning},
+  author={Ding, Zihan and Hernandez-Leal, Pablo and Ding, Gavin Weiguang and Li, Changjian and Huang, Ruitong},
+  journal={arXiv preprint arXiv:2011.07553},
+  year={2020}
+}
+```
