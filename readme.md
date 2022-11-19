@@ -2,6 +2,7 @@
 
 Open-source code for paper *CDT: Cascading Decision Trees for Explainable Reinforcement Learning* (https://arxiv.org/abs/2011.07553).
 
+Data folder: the data folders (`data` and `data_no_norm`) should be put at the root of the repo to run the code. See issues:  [#4](https://github.com/quantumiracle/Cascading-Decision-Tree/issues/4). The data folders are stored at the [Google Drive](https://drive.google.com/drive/folders/18GGBNZhugIAQXJ1TXtwJBwI6HkDWIJay?usp=sharing).
 
 # File Structure
 
