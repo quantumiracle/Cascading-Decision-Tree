@@ -9,6 +9,7 @@ import copy
 from utils.common_func import onehot_coding
 from cdt import discretize_cdt, CDT
 from sdt import discretize_sdt, SDT
+from cdt.cdt_plot import draw_tree, get_path
 from rl import PPO
 import json
 import argparse
