@@ -31,7 +31,7 @@ Data folder: the data folders (`data` and `data_no_norm`) should be put at the r
   * `il_train.sh`: bash to run IL  test with different models on server;
   * `rl_train.sh`: bash to run RL test with different models on server;
   * `rl_train_compare_sdt.py`: train RL agent with SDT;
-  * `rl_train_compare_cdt.py`: train RL agent with SDT;
+  * `rl_train_compare_cdt.py`: train RL agent with CDT;
   * `rl_train_compare_sdt.sh`: bash to run RL test with SDT of different depths on server;
   * `rl_train_compare_cdt.sh`: bash to run RL test with CDT of different depths on server;
 * visual
@@ -184,3 +184,4 @@ See in `params.ipynb`.
   year={2020}
 }
 ```
+
